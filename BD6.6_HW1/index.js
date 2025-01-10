@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = requires('cors');
+const cors = require('cors');
 const app = express();
 const { getAllMovies, getMoviesById } = require('./controllers');
 app.use(express.json());
